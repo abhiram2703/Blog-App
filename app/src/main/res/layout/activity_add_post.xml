@@ -1,0 +1,55 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:padding="60px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:textColor="@color/black"
+        android:text="Title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_title_24"
+        android:textColor="@color/black"
+        android:id="@+id/aptet"
+        android:drawablePadding="10dp"
+        android:hint="Enter Title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:textColor="@color/black"
+        android:text="Description"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_description_24"
+        android:id="@+id/apdet"
+        android:drawablePadding="10dp"
+        android:hint="Enter Description"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/addbtn"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="40px"
+        android:background="#0E76A6"
+        android:text="ADD"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/addbtmbtn"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:background="#0E76A6"
+        android:textColor="@color/black"
+        android:text="BACK TO MENU"/>
+
+</LinearLayout>

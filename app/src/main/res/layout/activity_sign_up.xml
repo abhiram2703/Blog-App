@@ -1,0 +1,81 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:padding="60px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:textColor="@color/black"
+        android:text="Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/nameetsup"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+
+        android:hint="Enter Name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:textColor="@color/black"
+        android:text="Email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_mail_outline_24"
+        android:id="@+id/emailetsup"
+        android:drawablePadding="10dp"
+
+        android:hint="Enter EmailID"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:textColor="@color/black"
+        android:text="Username"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/unameetsup"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:drawablePadding="10dp"
+
+        android:hint="Enter Username"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:textColor="@color/black"
+        android:text="Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passetsup"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:hint="Enter Password"
+        android:inputType="textPassword"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/supbtnsup"
+        android:background="#0E76A6"
+        android:layout_marginTop="40px"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"/>
+
+</LinearLayout>

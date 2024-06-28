@@ -1,0 +1,41 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:padding="60px"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:textColor="@color/black"
+        android:text="Add Post"
+        android:background="#0E76A6"
+        android:id="@+id/addmubtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:background="#0E76A6"
+        android:layout_marginTop="40px"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Search Post"
+        android:id="@+id/sermubtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Post"
+        android:textColor="@color/black"
+        android:layout_marginTop="40px"
+        android:background="#0E76A6"
+        android:id="@+id/delmubtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0E76A6"
+        android:layout_marginTop="40px"
+        android:text="Log out"
+        android:textColor="@color/black"
+        android:id="@+id/loutmubtn"/>
+
+</LinearLayout>
