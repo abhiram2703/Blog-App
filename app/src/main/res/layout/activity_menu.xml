@@ -5,17 +5,21 @@
     android:padding="60px"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:background="@drawable/icons"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40px"
         android:textColor="@color/black"
         android:text="Add Post"
-        android:background="#0E76A6"
+        android:background="@drawable/btnbackground"
         android:id="@+id/addmubtn"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
-        android:background="#0E76A6"
+        android:background="@drawable/btnbackground"
         android:layout_marginTop="40px"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
@@ -27,12 +31,12 @@
         android:text="Delete Post"
         android:textColor="@color/black"
         android:layout_marginTop="40px"
-        android:background="#0E76A6"
+        android:background="@drawable/btnbackground"
         android:id="@+id/delmubtn"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#0E76A6"
+        android:background="@drawable/btnbackground"
         android:layout_marginTop="40px"
         android:text="Log out"
         android:textColor="@color/black"

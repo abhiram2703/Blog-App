@@ -5,6 +5,10 @@
     android:gravity="center"
     android:padding="60px"
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:background="@drawable/icons"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

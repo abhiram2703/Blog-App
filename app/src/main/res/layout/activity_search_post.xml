@@ -5,6 +5,10 @@
     android:padding="60px"
     android:background="@drawable/background"
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:background="@drawable/icons"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,13 +30,13 @@
         android:id="@+id/serbtn"
         android:layout_height="wrap_content"
         android:layout_marginTop="40px"
-        android:background="#0E76A6"
+        android:background="@drawable/btnbackground"
         android:textColor="@color/black"
         android:text="SEARCH"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:id="@+id/serbtmbtn"
-        android:background="#0E76A6"
+        android:background="@drawable/btnbackground"
         android:layout_height="wrap_content"
         android:layout_marginTop="40px"
         android:textColor="@color/black"
